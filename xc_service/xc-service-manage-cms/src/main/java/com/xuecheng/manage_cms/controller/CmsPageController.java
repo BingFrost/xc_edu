@@ -12,9 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 /**
  * @author Administrator
- * @version 1.0
- * @create 2018-09-12 17:24
- **/
+ */
 @RestController //@RestController是@ResponseBody和@Controller的组合注解。
 @RequestMapping("/cms/page")
 public class CmsPageController implements CmsPageControllerApi {
